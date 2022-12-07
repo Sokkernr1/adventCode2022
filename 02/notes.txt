@@ -1,0 +1,43 @@
+# Round 1
+
+# Win = +6 ; Draw = +3 ; Loss = +0
+# A, X = Rock (+1)
+# B, Y = Paper (+2)
+# C, Z = Scissor (+3)
+
+# score = score + win/draw/loss + Rock/Paper/Scissor
+
+Elve: 	A - C = -2
+Elve: 	B - A = 1
+Elve: 	C - B = 1
+Player: A - B = -1
+Player: B - C = -1
+Player: C - A = 2
+Draw: 	B - B = 0
+Draw: 	A - A = 0
+Draw: 	C - C = 0
+
+------------------------------------------------------------------------------------------------
+
+# Round 2
+
+# Win = +6 ; Draw = +3 ; Loss = +0
+# A = Rock (+1)
+# B = Paper (+2)
+# C = Scissor (+3)
+# Z = Win (+6)
+# Y = Draw (+3)
+# X = Loss (+0)
+
+# score = score + win/draw/loss + Rock/Paper/Scissor
+
+A X = 0 + 1 = 1
+A Y = 3 + 1 = 4
+A Z = 6 + 1 = 7
+B X = 0 + 2 = 2
+B Y = 3 + 2 = 5
+B Z = 6 + 2 = 8
+C X = 0 + 3 = 3
+C Y = 3 + 3 = 6
+C Z = 6 + 3 = 9
+= 45
